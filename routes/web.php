@@ -22,4 +22,4 @@ $router->get('/greetings', function () use ($router) {
 });
 
 
-$router->get('/todolists', 'ListController@index');
+$router->get('/todolists', 'TodoListController@index');
